@@ -11,7 +11,8 @@ body {
     margin: 100px auto; 
     background: rgba(139,200,240,0.4);
     border-radius: 20px;
-    padding: 12px;
+    padding: 0;
+    text-align: center;
     
 }
 
@@ -51,3 +52,24 @@ body {
     outline:none;
 }
 
+#container button {
+    height: 40px;
+    width: 120px;
+    background: rgb(236, 60, 60);
+    color: white;
+    padding-block: 20px 0px 0px 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+#container button:hover {
+ 
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#totalTip {
+    padding: 15px;
+}
