@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-    height: 500px;
+    height: 450px;
     width: 360px;
     margin: 100px auto; 
     background: rgba(139,200,240,0.4);
@@ -72,4 +72,8 @@ body {
 
 #totalTip {
     padding: 15px;
+}
+
+#totalTip span{
+    font-size: 18px;
 }
